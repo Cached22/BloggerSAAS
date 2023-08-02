@@ -11,6 +11,8 @@
 
         // Navigation property to represent the relationship with the User model
         public User Author { get; set; }
+        // Navigation property to represent the relationship with the BlogComment model
+        public List<BlogComment> Comments { get; set; }
         // Add other properties as needed
     }
 }
